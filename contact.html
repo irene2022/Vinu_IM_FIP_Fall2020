@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Chiller - Contact</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <h1 class="hidden">Chiller</h1>
+  <div class="container">
+    <header class="mainHeader">
+      <div class="logoHeader">
+        <img src="images/logo.png" alt="Chiller logo" id="logo">
+      </div>
+
+      <nav class="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="stories.html">STORIES</a></li>
+          <li class="selected"><a href="contact.html">CONTACT US</a></li>
+          <li><a href="#">HELP</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- MAIN CONTACT FORM -->
+    <section class="heroSub">
+      <h2 class="hidden">STORY SUBMISSIONS</h2>
+      <h2>Submit your stories to be our next featured story</h2>
+    </section>
+
+    <main id="mainSubmission">
+      <h2>Story Submission</h2>
+
+      <section id="submissionArea">
+        <h2 class="hidden">Submission Form</h2>
+        <p id="subText">Leave your entries down bellow.</p>
+
+        <form id="submissionForm" action="form.php" method="post">
+          <label for="name">Username*: </label>
+          <input type="text" required id="name" name="userName" size="50" placeholder="Enter your username">
+
+          <label for="email">Email*: </label>
+          <input type="email" required id="email" size="50" placeholder="Enter your Email">
+
+          <label for="submission">Story Submission*: </label>
+          <textarea id="comments" name="submission" required cols="100" rows="10" ></textarea>
+
+          <label for="human">Enter the sum of 25 and 75: </label>
+          <input type="text" required id="human" size="30" placeholder="25 + 75">
+
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      </section>
+
+<!-- END OF SUBMISSION FORM -->
+
+      <section id="Enquiry">
+        <h3>Email us: </h3>
+        <p><a target="_blank" href="http://www.gmail.com">chillpillofficial@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer class="mainFooter">
+      <div class="logoNav">
+        <div class="logoFooter">
+          <img src="images/logo.png" alt="Chiller logo">
+        </div>
+        <nav class="footerNav">
+          <h2 class="hidden">Footer Navigation</h2>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="stories.html">STORIES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="#">HELP</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="socialMedia">
+        <h2 class="hidden">Social Media</h2>
+        <ul id="iconNav">
+          <li id="facebook">
+            <a target="_blank" href="http://www.facebook.com">
+              <img src="images/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li id="twitter">
+            <a target="_blank" href="http://www.twitter.com">
+              <img src="images/twitter.svg" alt="twitter">
+            </a>
+          </li>
+          <li id="youtube">
+            <a target="_blank" href="http://www.youtube.com">
+              <img src="images/youtube.svg" alt="youtube">
+            </a>
+          </li>
+          <li id="instagram">
+            <a target="_blank" href="http://www.instagram.com">
+              <img src="images/instagram.svg" alt="instagram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
